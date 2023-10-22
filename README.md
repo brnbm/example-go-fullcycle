@@ -11,7 +11,12 @@ fullcyle.go
 ➜ go build fullcyle.go
 
 # Executar o compilado
-➜ ./fullcyle          
+➜ ./fullcyle
+
+# Visualizar resultado a partir de uma imagem Docker
+➜ docker run brunobm/fullcycle
+
+         
 
 
 
