@@ -1,7 +1,7 @@
-FROM golang:1.21-alpine
+package main
 
-WORKDIR /usr/src/app
+import "fmt"
 
-COPY fullcyle .
-
-ENTRYPOINT [ "./fullcyle" ]
+func main() {
+	fmt.Println("Full Cycle Rocks!!")
+}
